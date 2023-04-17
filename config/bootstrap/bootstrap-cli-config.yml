@@ -72,6 +72,7 @@ bootstrap:
               - cdf-group: cdf:uc:001:oee:read
                 idp-source-id: 2fea799b-d559-4bdc-84e1-d011d393521b
                 idp-source-name: bootcamp-56-test-uc-001-oee-read
+
     # Support multiple CDF Projects, like dev/test/prod in one config.
         - cdf-project: cdf-bootcamp-56-prod # i.e. bootcamp-01-test
           mappings:
@@ -90,7 +91,6 @@ bootstrap:
               - cdf-group: cdf:uc:001:oee:read
                 idp-source-id: 0b79683b-f7f1-4eb1-ae65-a4ddecdf1aab
                 idp-source-name: bootcamp-56-prod-uc-001-oee-read
-
 
     namespaces:
         # Typical config will have a namespace for data sources ("src") and a namespace for use cases ("uc")
