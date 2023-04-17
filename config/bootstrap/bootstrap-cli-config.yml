@@ -66,6 +66,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: 317fa6ea-ca6a-4187-875b-6062f5099fe5 # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-56-test-all-read  # i.e. bootcamp-01-test-all-read
+              - cdf-group: cdf:uc:001:oee:owner
+                idp-source-id: 8f3507ca-36ac-4645-8395-efc4b5b1ae4e
+                idp-source-name: bootcamp-56-test-uc-001-oee-owner
+              - cdf-group: cdf:uc:001:oee:read
+                idp-source-id: 2fea799b-d559-4bdc-84e1-d011d393521b
+                idp-source-name: bootcamp-56-test-uc-001-oee-read
     # Support multiple CDF Projects, like dev/test/prod in one config.
         - cdf-project: cdf-bootcamp-56-prod # i.e. bootcamp-01-test
           mappings:
@@ -78,6 +84,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: 6b88beae-6506-4127-8c7e-c64f5e68746b # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-56-prod-all-read # i.e. bootcamp-01-test-all-read
+              - cdf-group: cdf:uc:001:oee:owner
+                idp-source-id: 9b930d33-918d-4134-ac16-37584302d460
+                idp-source-name: bootcamp-56-prod-uc-001-oee-owner
+              - cdf-group: cdf:uc:001:oee:read
+                idp-source-id: 0b79683b-f7f1-4eb1-ae65-a4ddecdf1aab
+                idp-source-name: bootcamp-56-prod-uc-001-oee-read
 
 
     namespaces:
